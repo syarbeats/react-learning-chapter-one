@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+class LeftContent extends Component {
   render() {
     return (
         <div>
-            <h1>Left Content</h1>
-            <h2>Content</h2>
-            <p>This is the content</p>
+            <div className="card">
+                <div className="card-header">Left Side</div>
+                <div className="card-body">Content</div>
+                <div className="card-footer">Footer</div>
+            </div>
         </div>
     );
   }
 }
 
-export default App;
+export default LeftContent;
