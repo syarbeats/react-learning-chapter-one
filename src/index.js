@@ -2,9 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Header';
+import Header from './component/Header';
 import LeftContent from './App';
-import RightContent from './RightContent';
+import RightContent from './component/RightContent';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Header />, document.getElementById('header'));

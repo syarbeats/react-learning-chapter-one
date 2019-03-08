@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 class LeftContent extends Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state = {
             data:
             [
